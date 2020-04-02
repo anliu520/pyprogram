@@ -15,7 +15,6 @@ while num <3 :
         print("猜大了,,,")
     else:
         print("猜小了")
-        co
     num +=1
 else:
     print("xxxxxxxxxxxxxxxx")
