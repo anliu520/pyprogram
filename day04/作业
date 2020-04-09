@@ -1,0 +1,21 @@
+作业：
+（1）购物车优化：
+用户入口：
+1.商品信息，（存在于文件）
+2.已购商品，余额记录，（存在于文件）
+3.不可以修改商品，修改商品价格。
+管理入口：
+1.商品信息，（存在于文件）
+2.已购商品，余额记录，（存在于文件）
+3.可以修改商品，修改商品价格。
+
+（2）用python修改named.conf （DNS）
+
+options {
+                listen-on port 53 { any; };   #any--》192.168.42.180
+                listen-on-v6 port 53 { ::1; };
+                directory       "/var/named";
+                dump-file       "/var/named/data/cache_dump.db";
+                statistics-file "/var/named/data/named_stats.txt";
+                memstatistics-file "/var/named/data/named_mem_stats.txt";
+                allow-query     { any; };    #any ===》all
