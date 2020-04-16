@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec78130-38f9-4f70-8530-09c2b6306903" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/bar_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/file_mod_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/file_mod_test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/file_writer_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/named.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/函数_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/test_fun.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/test_fun1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2/test_fun2.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,30 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test_file1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day05/test_file1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="file_read_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day05/file_read_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="file_writer_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day05/file_writer_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state>
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -51,7 +29,7 @@
       <file leaf-file-name="file_mod_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day05/file_mod_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="180">
               <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
@@ -60,26 +38,44 @@
       <file leaf-file-name="file_mod_test2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day05/file_mod_test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="120">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="named.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="named.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day05/named.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".named.conf.swp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day05/.named.conf.swp">
+      <file leaf-file-name="file" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day06/file">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="443">
+              <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="函数_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day06/函数_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day06/test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -88,25 +84,7 @@
         <entry file="file://$PROJECT_DIR$/day05/test4">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day05/test1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_file2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day05/test_file2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -173,21 +151,23 @@
         <option value="$PROJECT_DIR$/day05/named.conf" />
         <option value="$PROJECT_DIR$/day05/file_mod_test.py" />
         <option value="$PROJECT_DIR$/day05/file_mod_test2.py" />
+        <option value="$PROJECT_DIR$/day06/test1.py" />
+        <option value="$PROJECT_DIR$/day06/函数_test.py" />
+        <option value="$PROJECT_DIR$/day06/file" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="16" />
-    <option name="y" value="150" />
+    <option name="x" value="-23" />
+    <option name="y" value="49" />
     <option name="width" value="1890" />
-    <option name="height" value="693" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,12 +178,13 @@
             <path>
               <item name="pyprogram" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="day05" type="462c0819:PsiDirectoryNode" />
+              <item name="day06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,8 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_mod_test2">
-    <configuration name="bar_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.函数_test">
+    <configuration name="函数_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyprogram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,11 +212,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/bar_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/函数_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,24 +258,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="file_read_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pyprogram" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/file_read_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="file_writer_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyprogram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,20 +276,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyprogram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day06/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.file_read_test" />
-      <item itemvalue="Python.bar_test" />
       <item itemvalue="Python.file_writer_test" />
       <item itemvalue="Python.file_mod_test" />
       <item itemvalue="Python.file_mod_test2" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.函数_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.函数_test" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.file_mod_test2" />
         <item itemvalue="Python.file_mod_test" />
         <item itemvalue="Python.file_writer_test" />
-        <item itemvalue="Python.bar_test" />
-        <item itemvalue="Python.file_read_test" />
       </list>
     </recent_temporary>
   </component>
@@ -346,14 +327,14 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16679905" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.71639043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3020258" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28360957" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46224678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.112338856" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,53 +357,16 @@
           <line>5</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day06/函数_test.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="46" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day01/test_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01/test_modole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01/test_import.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/test0-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/test_int.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day02/test_string.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day02/test_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -648,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/file_read_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="660">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
@@ -662,15 +606,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/test1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/test4">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -683,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/file_writer_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state>
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -697,22 +641,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/file_mod_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="180">
           <caret line="6" selection-start-line="6" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/file_mod_test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="120">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-426009256/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/named.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python3/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6169">
+          <caret line="1222" selection-start-line="1222" selection-end-line="1222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/函数_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="56" column="6" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
         </state>
       </provider>
     </entry>
