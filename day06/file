@@ -52,13 +52,45 @@ test2(y=1,x=2) 关键字参数
 test2(1,2)   位置参数，要和形式参数对应
 "关键字参数不能出现在位置参数之前"
 
+传递参数组：*args   #接受位置参数
+            **kwargs  #接受关键字参数
+            *arge，**kwargs
+            name,**kwargs
+            name,*arge
+            name="naliu",**kwargs  #默认值
+
+
 
 作业：
 一、用函数：
 （0）补充注册功能---->文件
 （1）用户登录
-“商家”
-“客户”
+“商家”：--->修改信息，购买商品，浏览商品信息
+“客户”：--->购买商品，浏览商品信息
+
+函数：按照功能抽象成函数
+
+def modify_massage():
+   pass
+
+def buy_goods():
+   pass
+
+def buy_scan():
+   pass
+
+
+def login():
+   pass
+
+def auther():
+   pass
+
+
+def register():
+   pass
+
+
 （2）购物车
 二、字符类型：
 复习
