@@ -1,0 +1,65 @@
+模块定义：模块的本质就是python文件（文件名test.py,模块test)
+    作用：从逻辑上组织python代码（变量，函数，类等逻辑上的组织，实现一个功能）
+
+模块导入：
+（1）import :一次可以导入多个模块，“，”
+     模块导入的本质：将文件执行一遍以后，保存到模块名中。
+     import module_test   # py moudule_test.py  === > module_test
+
+模块的优化：
+（2）from modulename import func1,func2,...,
+     本质是：将对应的方法做了定义。
+     func1()
+
+     from module_test import bar,pol
+     from module_test import bar as module_bar ,pol as module_pol
+     #有冲突的场景可定义别名。
+（3）from modulename import *   导入所有方法，（不建议使用）
+
+包的定义：本质是个目录（必须带有一个__init__.py的文件，从逻辑上组织模块）
+
+包的导入：
+（1）import package
+     包导入的本质是解释该包下的__init.py__的文件. ( 欠账 )
+（2）from atm import test_main
+
+模块执行的顺序：
+(1)首先在当前路径下找模块，因为默认在环境变量里有当前路径。
+(2)当前下没有，就去在加载的环境变量中找模块
+print(sys.path)
+
+['K:\\myprogram\\pyprogram\\day11\\atm',
+'K:\\myprogram',
+'K:\\pyprogram\\venv\\Scripts\\python36.zip',
+'E:\\Python36\\DLLs',
+'E:\\Python36\\lib',
+'E:\\Python36',
+'K:\\pyprogram\\venv',
+'K:\\pyprogram\\venv\\lib\\site-packages',
+'K:\\pyprogram\\venv\\lib\\site-packages\\setuptools-39.1.0-py3.6.egg',
+'K:\\pyprogram\\venv\\lib\\site-packages\\pip-10.0.1-py3.6.egg'
+]
+
+动态加载环境变量：环境变量随文件的位置的变化而变化。
+import time,os,sys
+print(sys.path)
+persent_path = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(persent_path)
+print(sys.path)
+
+import time_test
+
+注意：（1）环境变量动态加载上之后，才可导入模块。
+      （2）加载模块时，只在环境变量的当前目录下找模块，不会到环境变量的下层目录中加载。
+
+（3）在环境变量中也没有找到，系统就会去模块库中查找。linux ==>/usr/local/lib/python/,python python安装时定义。
+（4）没有模块。
+
+模块的分类：
+（1）标准库
+（2）第三方模块（开源模块）
+（3）自定义的模块。
+
+作业：
+（1）练习模块加载顺序。
+（2）继续完成上周作业。
