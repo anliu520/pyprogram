@@ -1,0 +1,51 @@
+（1）os模块
+os.sep # 路径分隔符，w:\,L:/
+os.linesep  #换行符，w:\r\n,L:\n
+os.pathsep  #环境变量的分割符，w: ;,L: :
+
+os.environ  #环境变量，以字典的形式呈现
+os.name #类UNIX：'posix' 。windows：'nt'
+os.system("dir")  #执行系统命令
+print(os.path.split(r"c:\a\b\file.txt"))   #目录和文件分离，以元组的形式展示
+print(os.path.isabs("file.txt"))  #判断文件是否是绝对路径。
+
+
+（2）os 与 sys
+import os,sys
+模块：标准库，E:\\Python36\\lib'
+      开源模块，E:\\Python36\\lib\\site-packages
+      自定模块，E:\\Python36\\lib'，自定义。
+
+os：存在于标准库
+sys：编译到了解释其中，不存在与标准库。
+
+“so，标准模块不一定就在标准库中。”
+
+（3）sys
+sys.path
+
+sys.argv[0]  #文件名
+sys.argv[1]
+sys.argv[2]
+
+sys.exit()  #退出时触发异常，SystemExit，退出 key：“”
+sys.exit("123")  #退出时触发异常，SystemExit，退出 key：“123”
+#exit()
+
+try:
+   数据库连接
+   sys.exit()
+except SystemExit as key:
+   清理会话缓存；清除tcp连接。
+
+（4）xml
+创建：
+遍历：
+修改：
+
+作业：
+（1）将os.stat("file")打印的时间戳转化为格式化的字符串。
+（2）python实现KVM虚拟机管理工具，用户交互，让用户输入：虚拟机名，CPU，内存值，
+操作系统类型之后，创建虚拟机。
+
+
