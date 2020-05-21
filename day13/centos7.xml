@@ -1,9 +1,9 @@
 <domain type="kvm">
-  <name>hahaha</name>
+  <name>Centos7u4-1</name>
   <uuid>f9dfe67c-78c3-4f22-a6f1-7eea9288b62e</uuid>
   <memory unit="KiB">1048576</memory>
   <currentMemory unit="KiB">1048576</currentMemory>
-  <vcpu placement="static">1</vcpu>
+  <vcpu placement="static" updated="yes">5</vcpu>
   <os>
     <type arch="x86_64" machine="pc-i440fx-rhel7.0.0">hvm</type>
     <boot dev="hd" />

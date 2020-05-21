@@ -1,0 +1,25 @@
+（1）XML模块
+修改，删除
+
+（2）shutil模块： 对文件的权限，属性，压缩，解压缩等的操作。
+
+import shutil,os
+#with open("test01","w",encoding="utf-8") as f1:
+#    f1.write("This is a test test01")
+
+#with open("test02","w",encoding="utf-8") as f2:
+#    f2.write("THis is a test test02")
+
+#shutil.copymode("test01","test02")  #只修改权限，不修改属主属组，stat信息未修改
+#shutil.copystat("test01","test02")  #只修改权限，不修改属主属组,stat信息做了修改
+#shutil.copy("test01","test02")  #即修改文件权限，有修改文件内容,stat信息未修改
+#shutil.copy2("test01","test02")  #即修改文件权限，有修改文件内容,stat信息做了修改
+#shutil.move("test01","xxxxx")
+#shutil.make_archive("anliu","gztar",root_dir="test",base_dir=".")
+#shutil.unpack_archive("anliu.tar.gz",extract_dir=".",format="gztar")
+
+
+作业：
+（1）练习模块操作。
+（2）python实现KVM虚拟机管理工具，用户交互，让用户输入：虚拟机名，CPU，内存值，
+操作系统类型之后，创建虚拟机。

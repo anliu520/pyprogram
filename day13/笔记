@@ -38,10 +38,19 @@ try:
 except SystemExit as key:
    清理会话缓存；清除tcp连接。
 
+json: , , ,
+
 （4）xml
 创建：
+ET.Element("urlset")
+ET.SubElement(urlset,"url")
 遍历：
+for i in xx：
+   for j in xx：
 修改：
+node.set("updated","yes")
+删除：
+i.remove(k)  # k:xml文件的元素。
 
 作业：
 （1）将os.stat("file")打印的时间戳转化为格式化的字符串。
