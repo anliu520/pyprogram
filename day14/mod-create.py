@@ -21,15 +21,11 @@ import xml.etree.cElementTree as ET
 tree1 = ET.parse("test1_xml.xml")
 #root1 = tree1.getroot()
 for en in tree1.getroot():  #遍历根节点标签
-    #print(en)   #打印根节点下的子节点存储对象
-    #print(en.tag)  #打印更节点下子节点的标签名
+    print(en)   #打印根节点下的子节点存储对象
+    print(en.tag)  #打印更节点下子节点的标签名
     for suben in en:  #遍历字节下的标签
-        print(suben.tag)
+        #print(suben.tag)
         if suben.tag == "url":
-            suben.text = "www.souhu.com"
+            suben.text = "www.xxxx.com"
         #print(suben)  #打印子节点存储对象
 tree1.write("test1_xml.xml")
-
-
-
-
