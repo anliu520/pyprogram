@@ -1,0 +1,26 @@
+#任何playbook文件(其实就是yaml文件)都要以这个开头
+---
+#选择的主机组
+- hosts: webservers
+#这个是变量
+  vars:
+    http_port: 80
+    max_clients: 200
+  tasks:
+#利用yum模块来操作
+  - name: ensure apache is at the latest version
+    yum: pkg=httpd state=latest
+
+  - name: write the apache config file
+    template: src=/srv/httpd.j2 dest=/etc/httpd.conf
+#触发重启服务器（只要上面的httpd.conf文件变化了，就触发handlers中的restart apache）
+    notify:
+    - restart apache
+
+  - name: ensure apache is running
+    service: name=httpd state=started
+
+#这里的restart apache 和上面的触发是配对的。这就是handlers的作用。相当于ta
+  handlers:
+    - name: restart apache
+      service: name=httpd state=restarted

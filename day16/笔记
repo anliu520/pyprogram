@@ -1,0 +1,85 @@
+（1）configparse
+mysql,samb,ansible(hosts)
+
+增：
+方法一：
+config["user"] = {}  #添加空节点
+config["user"]["name"] = 'root'   #给节点添加键值
+config['DEFAULT']["server_socket"] = "/lib/dns.sock"
+
+方法二：
+config["pass"] = {}
+tops = config["pass"]
+tops["password"] = "123456"
+tops["pass_key"] = "/root/.ssh/key.pub"
+
+方法三：
+if not config.has_section("user"):  #增加节点
+    config.add_section("user")
+    config.write(open("named.conf","w"))
+
+#config.set("user","name","root")  #增加键值
+#config.write(open("named.conf","w"))
+
+删：
+#config.remove_section("user")    #删除节点
+#config.write(open("named.conf","w"))
+
+config.remove_option("pass","pass_key")  #删除键值
+config.write(open("named.conf","w"))
+
+改：
+config.set("user","name","admin")  # 修改键的值
+config.write(open("named.conf","w"))
+
+查：
+
+#以列表呈现的节点，除了DEFAULT
+print(config.sections())
+
+#打印 DEFAULT 内容
+if 'DEFAULT' in config:
+    a = config["DEFAULT"]
+    print(a["server_ip"])
+else:
+    print("NULL")
+
+#以迭代器的方法遍历节点
+print(config)
+for i in config:
+    print(i)
+
+#print(config.options("user")) #打印键值，以列表的形式呈现，包括指定的节点以及DEFAULT
+#print(config.get("user","name"))  #打印对应节点的key的值。
+#print(config.getint("user","name"))
+
+(2)PyYaml
+ansible ---> 剧本
+k8s -----> 资源清单
+
+[{'hosts': 'webservers', 'vars': {'http_port': 80, 'max_clients': 200},
+'tasks': [{'name': 'ensure apache is at the latest version', 'yum': 'pkg=httpd state=latest'}, {'name': 'write the apache config file', 'template': 'src=/srv/httpd.j2 dest=/etc/httpd.conf', 'notify': ['restart apache']}, {'name': 'ensure apache is running', 'service': 'name=httpd state=started'}],
+'handlers': [{'name': 'restart apache', 'service': 'name=httpd state=restarted'}]}]
+
+反序列化：
+a1 = yaml.load(f1,Loader=yaml.FullLoader)  # python字符类型
+a2 = yaml.load_all(f1,Loader=yaml.FullLoader)  #生成器对象
+
+序列化：
+yaml.dump(dict,f1)
+
+作业：
+（1）完善vmcreat2。
+修改成规范配置文件
+添加日志
+
+（2）用python实现一个简单的K8s集群的pod创建模板。（yaml，k8s复习）
+用python：----》 kind：（Pod，Deployment，Volume ...）kind：Pod
+          ----》 image：
+          ----》 name：
+自动生成资源清单。
+
+（3）用python实现ansible的自动化部署(httpd)。
+定义hosts  ---->  configparser
+定义剧本   ---->  yaml
+os.system("ansible-playbook -i host")

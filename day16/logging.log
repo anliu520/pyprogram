@@ -1,0 +1,5 @@
+2020-05-28 22:19:28,087 - root - DEBUG - debug message.
+2020-05-28 22:19:28,087 - root - INFO - info message.
+2020-05-28 22:19:28,087 - root - WARNING - warning message.
+2020-05-28 22:19:28,087 - root - ERROR - error message.
+2020-05-28 22:19:28,087 - root - CRITICAL - critical message.
