@@ -1,0 +1,12 @@
+作业：
+（1）回顾数据类型的操作
+由  str ----> list
+    str ---->dict
+    str ---->元组
+    list ---> dict
+    list ---> 元组
+    list --->str
+    dict ---> list
+
+（2）完善变更管理工具
+DMK

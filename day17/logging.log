@@ -1,0 +1,64 @@
+2020-06-03 21:44:04,320 - simpleExample - DEBUG - debug message.
+2020-06-03 21:44:04,320 - simpleExample - INFO - info message.
+2020-06-03 21:44:04,320 - simpleExample - WARNING - warning message.
+2020-06-03 21:44:04,320 - simpleExample - ERROR - error message.
+2020-06-03 21:44:04,320 - simpleExample - CRITICAL - critical message.
+2020-06-03 21:44:50,909 - simpleExample - DEBUG - debug message.
+2020-06-03 21:44:50,909 - simpleExample - INFO - info message.
+2020-06-03 21:44:50,909 - simpleExample - WARNING - warning message.
+2020-06-03 21:44:50,909 - simpleExample - ERROR - error message.
+2020-06-03 21:44:50,909 - simpleExample - CRITICAL - critical message.
+2020-06-03 21:45:13,219 - root - DEBUG - debug message.
+2020-06-03 21:45:13,220 - root - INFO - info message.
+2020-06-03 21:45:13,220 - root - WARNING - warning message.
+2020-06-03 21:45:13,220 - root - ERROR - error message.
+2020-06-03 21:45:13,220 - root - CRITICAL - critical message.
+
+
+
+
+2020-06-03 21:45:24,899 - root - DEBUG - debug message.
+2020-06-03 21:45:24,899 - root - INFO - info message.
+2020-06-03 21:45:24,899 - root - WARNING - warning message.
+2020-06-03 21:45:24,899 - root - ERROR - error message.
+2020-06-03 21:45:24,899 - root - CRITICAL - critical message.
+
+
+
+2020-06-03 21:48:22,740 - simpleExample - DEBUG - debug message.
+2020-06-03 21:48:22,740 - simpleExample - INFO - info message.
+2020-06-03 21:48:22,740 - simpleExample - WARNING - warning message.
+2020-06-03 21:48:22,740 - simpleExample - ERROR - error message.
+2020-06-03 21:48:22,740 - simpleExample - CRITICAL - critical message.
+
+
+
+2020-06-03 21:48:31,769 - simpleExample - DEBUG - debug message.
+2020-06-03 21:48:31,769 - simpleExample - INFO - info message.
+2020-06-03 21:48:31,769 - simpleExample - WARNING - warning message.
+2020-06-03 21:48:31,770 - simpleExample - ERROR - error message.
+2020-06-03 21:48:31,770 - simpleExample - CRITICAL - critical message.
+2020-06-03 21:49:33,151 - root - DEBUG - debug message.
+2020-06-03 21:49:33,151 - root - INFO - info message.
+2020-06-03 21:49:33,151 - root - WARNING - warning message.
+2020-06-03 21:49:33,151 - root - ERROR - error message.
+2020-06-03 21:49:33,151 - root - CRITICAL - critical message.
+
+
+
+
+2020-06-03 21:49:40,324 - root - DEBUG - debug message.
+2020-06-03 21:49:40,324 - root - INFO - info message.
+2020-06-03 21:49:40,324 - root - WARNING - warning message.
+2020-06-03 21:49:40,324 - root - ERROR - error message.
+2020-06-03 21:49:40,325 - root - CRITICAL - critical message.
+2020-06-03 21:50:47,802 - root - ERROR - error message.
+2020-06-03 21:50:47,803 - root - CRITICAL - critical message.
+
+
+
+
+
+2020-06-03 21:50:54,621 - root - ERROR - error message.
+2020-06-03 21:50:54,621 - root - CRITICAL - critical message.
+

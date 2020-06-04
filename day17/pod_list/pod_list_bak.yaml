@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: python_app
+    version: v2
+  name: python_app
+spec:
+  containers:
+  - image: image
+    name: python-app

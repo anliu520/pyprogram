@@ -79,7 +79,59 @@ yaml.dump(dict,f1)
           ----》 name：
 自动生成资源清单。
 
+pod模板（yaml） ---》 python数据类型  --python--》
+                 yaml模块
+
 （3）用python实现ansible的自动化部署(httpd)。
-定义hosts  ---->  configparser
+''' python ---> ansible(python); '''
+
+第一步：创建角色,(每一个服务在role中对应一个以服务名定义的目录)---（规范化）
+第二步：编辑对应服务的ansible的playbooks。---编辑role  （与python无关）
+第三步：解决服务要部署在哪里？
+        hosts:
+        [nginx]
+        192.168.42.31
+        192.168.42.32
+        这样就写死了。
+        （1）测试连通性：
+        部署服务需要有一个普通用户 nginx（执行部署）
+        yaml :
+         user: add nginx
+        ssh nginx@192.168.42.31  == seccessful，失败。  nginx --->
+
+        链接ansible的用户 myacount （链接ansible）
+        192.168.42.31: useradd myacount
+        ssh ansible@192.168.42.31  == seccessful，失败。
+
+        （2）添加主机：
+             input(host:>>>)
+
+             选择主机：
+             CMDB (资产管理)
+             CMDB （数据库） --->  hosts --> ansible
+             预留一有个对接CMDB的接口:如何预留？
+             （预留一个对接CMDB数据库的接口）
+
+    现阶段如何实现？
+    用户输入[nginx,192.168.42.31]：----> dict ----> File  ---> python --->生产hosts （动态生成）
+    hosts :
+    [nginx]
+    192.168.42.31
+    ....
+
+第四步： 配置服务(配置中心：管理配置文件（）标准化)
+     nginx：
+     port: 80
+     path: /opt ；/data
+
+     lvs:
+     role:
+     floatIP:
+     realIP:
+
+     现阶段如何实现？
+     需要把这些用户修改的配置抓取出来，实现用户 input( :>>> 80) ---> yaml修改
+
+定义hosts  ---->  #
 定义剧本   ---->  yaml
 os.system("ansible-playbook -i host")

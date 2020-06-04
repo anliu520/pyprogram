@@ -1,0 +1,6 @@
+2020-06-03 21:12:01,905 - __main__ - INFO - this is a test from info
+2020-06-03 21:12:01,917 - __main__ - WARNING - This is a test from warning
+2020-06-03 21:12:01,917 - __main__ - INFO - Finish
+2020-06-03 21:12:02,594 - __main__ - INFO - this is a test from info
+2020-06-03 21:12:02,595 - __main__ - WARNING - This is a test from warning
+2020-06-03 21:12:02,595 - __main__ - INFO - Finish
