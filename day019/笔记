@@ -3,6 +3,19 @@
 （3）hmac
 （4）pickle ，json，yaml，configparch，xml，shelve
 
+json: json.dump();json.load()
+      json.dumps();json.loads()
+      标准：json ---跨平台交互，python --->json --->php,java
+      持久化基础的数据类型，对于函数，类的数据类型不支持。
+
+pickle: pickle.dump()  pickle.load()
+        pickle.dumps()   pickle.loads()
+        只局出现于python数据类型的交换，对于函数，类都支持。
+        持久化后是一个bytes。
+
+shelve: 是pickle的封装，对键-值来做持久化，
+        只局出现于python数据类型的交换，持久化函数或者类，
+
 作业：
 （1）输入：IP == 判断IP是不是一个合法的IPV4的地址。
       mail_dir  ==判断邮箱地址是否合法
@@ -13,7 +26,6 @@
 
 （2）把md5以及sha1，256，384，512，以及hmac的加密做一个分装，实现当用户调运不同的方法时，
 使用对应的加密形式。
-
 import longlong
 longlong.md5("admin") ==> md5
 longlong.sha384("admin")  ==> sha384
