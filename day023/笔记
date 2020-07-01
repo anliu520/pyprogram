@@ -1,0 +1,20 @@
+选课系统:
+
+（1）静态方法：
+@staticmethod  ：名义上属于类，但是和类没有关系，应用不了类的属性。
+（2）类方法：
+@classmethod  : 只能访问类变量，不能访问实例变量。
+（3）属性方法
+@property : 把一个方法变成静态属性，对用户来说是透明的；隐藏了实现过程
+改变后的静态属性不能修改参数，若要修改参数，就需要对类方法进行重构。
+    @property
+    #def delete_file(self,math):
+    def delete_file(self):
+        print("name:%s :inode:%s file is delete...%s  %s"%(self.name,self.inode,self.platform,self.__foo))
+
+    @delete_file.setter
+    def delete_file(self,math):
+       self.__foo = math
+
+作业：
+继续完成上周作业。
