@@ -1,0 +1,28 @@
+socket传递字典：（dict ----> betys）
+dict = {"IP":"192.168.42.111"}
+ip = json.dumps(dict)
+ip.encode()
+
+客户端：
+ip = json.dumps(dict)
+    client.send(ip.encode())
+
+服务端：
+ip = json.loads(data)
+
+服务端：                                    客户端：
+                                          dict = {Filename:
+                                                  Filepath:
+                                                  }
+        <----------------------------------
+判断文件是否存
+ dict    ----------------------------------->   size
+                                                md5
+循环发送数据  -------------------- --------->    循环接受数据
+                                                  if  < size
+                                                  md5 == md5
+
+
+
+
+
