@@ -9,6 +9,7 @@ while True:
     try:
         while True:
             data = conn.recv(1024)     #接受消息
+            print(conn)
             if len(data) == 0: break   #判断接受消息是否为空，当客户端链接断开时
             ip = json.loads(data)
             print(ip)

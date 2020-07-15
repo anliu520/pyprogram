@@ -1,0 +1,21 @@
+socketserver :对socket的封装，提供一个调运接口。
+实现socketserver的步骤：
+（1）创建一个请求处理类：继承socketserver的BaseRequestHandler类；
+                         重写BaseRequestHandler类的handle方法。
+（2）实例化一个对象，并且把地址和（1）中创建的处理类传递给它。
+（3）调server的handle_request()，serve_forever()方法，处理请求
+     handle_request()  ：单个请求
+     serve_forever()   ：多个请求
+（4）server_close（）关闭套接字。
+
+在socketserver中处理数据是在handel中进行的，源码中的handle需要改写。
+
+作业：ftp服务器
+要求：
+用户加密认证
+允许同时多用户登录   ---> socketserver 并发
+每个用户有自己的家目录 ，且只能访问自己的家目录
+允许用户在ftp server上随意切换目录
+允许用户查看当前目录下文件
+允许上传和下载文件，保证文件一致性
+文件传输过程中显示进度条

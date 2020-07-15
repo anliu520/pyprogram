@@ -1,0 +1,58 @@
+socket方法：
+s.bind()                          #绑定地址
+s.listen(5)                       #监听，可接受5个链接程序的挂起
+s.accept()                        #阻塞，等待客户端的链接，当有客户端链接时，
+                                   接受客户端的俩能接对象和地址
+c.connect(("127.0.0.2",9898))      #发起服务链接，当链接错误时，抛出异常
+c.connect_ex(("127.0.0.2",9898))   #对connect的扩展，当链接错误时，返回错误码
+OSError: [WinError 10057] 由于套接字没有连接并且
+(当使用一个 sendto 调用发送数据报套接字时)没有提供地址，发送或接收数据的请求没有被接受。
+
+conn.recv(buffersize[, flags])    #buffersize 接受的数据量，flags其他选项；接受真实数据是bytes类型，
+当数据传输完毕后返回空的字符串。
+c.send(data[, flags])             #发送数据（bytes），返回值是发送的字节大小，
+                                   当网络繁忙时返回的数据比发送的小
+conn.sendall(data.upper())        #尝试发送接受到的完整数据。
+conn.getpeername()                #获取套接字远程地址
+conn.getsockname()                #获取套接字自己地址
+s.settimeout(5)                   #套接字超时时间
+s.gettimeout()                    #获取超时时间
+c.fileno()                        #获取套接字
+setblocking(0)                    #非阻塞
+conn.makefile()                   #创建套接字文件
+
+
+实例化socket对象时，传递参数：
+family=AF_INET, type=SOCK_STREAM, proto=0, fileno=None
+family：  socket.AF_UNIX ：只能够用于单一的Unix系统进程间通信
+　　      socket.AF_INET ：服务器之间的网络通信（ipv4协议的TCP和UDP）ipv4,默认为这个
+          socket.AF_INET6 ：服务器之间的网络通信ipv6
+type：
+　　socket.SOCK_STREAM ：面向连接的TCP，默认为这个
+　　socket.SOCK_DGRAM ：面向非连接的UDP
+    socket.SOCK_RAW ：原始套接字，普通的套接字无法处理ICMP、IGMP等网络报文，而socket_RAM可以；
+                      其次，SOCK_RAM也可以处理特殊的IPV4报文；
+                      此外，利用原始套接字，可以通过IP_HDRINCL套接字选项由用户构建IP头。
+
+黏包问题解决思路：
+客户端：
+    data = client.recv(1024)
+    client.send(b"ack"))
+    cmd_size = 0
+    received_data = b""
+    while cmd_size < int(data.decode("utf-8")):
+        cmd_data = client.recv(1024)
+
+服务端：
+            conn.send(str(len(reg.encode("utf-8"))).encode("utf-8"))
+            #conn.recv(1024)
+            conn.send(reg.encode())
+
+service -------- > client
+金庸  ----------->  金庸
+resv（1024）<----  send（""）
+新著  ----------->  新著
+金庸 新著
+
+
+
