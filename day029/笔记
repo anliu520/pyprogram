@@ -1,0 +1,27 @@
+paramiko --->ssh
+实例一：创建paramiko ssh客户端：
+（1）实例化一个ssh客户端的实例
+ssh = paramiko.SSHClient()
+（2）链接ssh
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy)
+ssh.connect(hostname="192.168.42.3",port="22",username="root",password="123456")
+
+实例二： 创建paramiko tftp客户端：
+（1）实例化一个传输的对象
+tran =  paramiko.Transport(("192.168.42.3",22))
+（2）链接
+tran.connect(username="root",password="123456")
+（3）实例化一个TFTP的对象
+sftp = paramiko.SFTPClient.from_transport(tran)
+
+上传：sftp.put(os.path.join(local_path,"paramiko-2.7.zip"),os.path.join(remote,"123.py"))
+下载：sftp.get(os.path.join(remote,"pycrypto-2.6.tar.gz"),os.path.join(local_path,"pycrypto.tar.gz"))
+
+实例三： 基于秘钥对实现ssh认证：
+定义一个私钥位置：
+private_key = paramiko.RSAKey.from_private_key_file(r'C:\Users\My\.ssh\linux\id_rsa')
+创建SSH对象
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+链接
+ssh.connect(hostname="192.168.42.3",port=22,username="root",pkey=private_key)
