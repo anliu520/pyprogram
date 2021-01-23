@@ -1,0 +1,17 @@
+(1)守护线程
+python调用的是系统的原生接口（C语言实现的原生线程）
+systemd  （C） ----->  11268 （PID--pycharm） ----> 12976 (主线程) --->>(Thread : ) --setdeamon
+
+(2) 线程锁
+GIL  -----> 解释器中
+保证在同一时间内只有一个线程正真修改数据。（用户态的锁）
+
+互斥锁：保证在同一时间内只有一个线程正真修改数据。
+lock = threading.Lock()
+lock.acquire()
+lock.release()
+
+互斥锁的嵌套会产生死锁，为了解决死锁问题，引入递归锁：
+lock = threading.RLock()
+lock.acquire()
+lock.release()

@@ -1,0 +1,27 @@
+（1）信号量
+同时容许一定数量的线程修改数量
+semaphore = threading.BoundedSemaphore(5)    #生成一个信号量的实例，一次运行5个线程
+semaphore.acquire()    #申请信号量实例
+semaphore.release()   #释放
+（2）事件
+事件是一种内部标志，通过标志的置位与否标志本身
+#生成event对象
+event = threading.Event()
+#客户端线程可以等待设置标志
+event.wait()
+#服务端线程可以设置或重置标志
+event.set()
+event.clear()
+
+(3)线程中的队列
+队列生成：
+class queue.Queue(maxsize=0) #先入先出
+class queue.LifoQueue(maxsize=0) #last in fisrt out
+
+queue.Empty #对空队列对象调用非阻塞get（）（或get_nowait（））时引发异常。
+queue.Full #对已满的队列对象调用非阻塞的put（）（或put_nowait（））时引发异常。
+Queue.qsize()   #队列长度
+Queue.empty()   #return True if empty
+Queue.full()    # return True if full
+Queue.put(item, block=True, timeout=None)
+Queue.get(item, block=True, timeout=None)

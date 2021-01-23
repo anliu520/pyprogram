@@ -1,0 +1,16 @@
+（1）进程与线程的概念
+进程：
+线程：
+进程与线程之间的区别
+（2）GIL 全局解释器锁
+与python本身没有关系，是python解释器的概念。
+python设计本身使用不了多核CPU，为了使用线程，在解释器中通过加锁的形式实现并发效果。
+
+（3）多线程的实现
+1.函数的形式
+2.类的形式
+
+统计并发执行的时间：
+.join()             ---> Wait until the thread terminates
+.current_thread()   ---> Return the current Thread object
+.active_count()     ---> Return the number of Thread objects currently alive
